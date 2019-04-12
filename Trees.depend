@@ -29,3 +29,18 @@
 1527459192 source:g:\programming\c projects\trees\trees.c
 	"Trees.h"
 
+1555076414 source:d:\programming\c projects\auto-correction\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Trees.h"
+
+1555076414 d:\programming\c projects\auto-correction\trees.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<ctype.h>
+
+1555076414 source:d:\programming\c projects\auto-correction\trees.c
+	"Trees.h"
+
