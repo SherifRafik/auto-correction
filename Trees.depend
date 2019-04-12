@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1527649790 source:d:\c projects\trees\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Trees.h"
+
+1527647037 d:\c projects\trees\trees.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<ctype.h>
+
+1527459192 source:d:\c projects\trees\trees.c
+	"Trees.h"
+
+1555075658 source:g:\programming\c projects\trees\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Trees.h"
+
+1527647037 g:\programming\c projects\trees\trees.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<ctype.h>
+
+1527459192 source:g:\programming\c projects\trees\trees.c
+	"Trees.h"
+
