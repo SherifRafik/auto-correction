@@ -23,7 +23,7 @@ int main()
     printf("BST tree results may be different from the AVL tree results\ndue to balancing methods\n");
     color(15);
     fflush(stdin);
-    printf("Enter your sentence:");
+    printf("\nEnter your sentence:");
     fgets(inputBST,512,stdin);
     inputBST[strlen(inputBST) - 1] = '\0';
     if (inputBST[0] == '\0') {
@@ -34,9 +34,9 @@ int main()
     }
     strcpy(inputAVL,inputBST);
     color(11); printf("\nBST\n"); color(15);
-    seachWordBST(inputBST);
+    splitSearchWordBST(inputBST);
     color(11); printf("\nAVL\n"); color(15);
-    seachWordAVL(inputAVL);
+    splitSearchWordAVL(inputAVL);
     color(7);
     return 0;
 }
@@ -79,7 +79,7 @@ void putWords()
     BSTroot  = insertRecursion(words,0,noOfWords-1);
 }
 
-void seachWordBST(char input[])
+void splitSearchWordBST(char input[])
 {
     char *split = strtok(input," ,.");
     while(split!=NULL)
@@ -90,7 +90,7 @@ void seachWordBST(char input[])
     return;
 }
 
-void seachWordAVL(char input[])
+void splitSearchWordAVL(char input[])
 {
     char *split = strtok(input," ,.");
     while(split!=NULL)
